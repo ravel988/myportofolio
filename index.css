@@ -18,9 +18,28 @@ body {
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  background-color: black;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: white;
+   position: relative;
 }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  body > * {
+    position: relative;
+    z-index: 1;
+  }
 
 header {
   margin-top: 20px;
@@ -39,7 +58,7 @@ header {
 
 .logo {
   font-size: 3rem;
-  color: hsla(91, 88%, 50%, 0.8);
+  color: hsla(0, 0%, 100%, 0.8);
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
@@ -107,7 +126,6 @@ section {
   justify-content: center;
   align-items: center;
   gap: 8rem;
-  background-color: black;
 }
 
 .home .home-content h1 {
