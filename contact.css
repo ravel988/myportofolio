@@ -86,8 +86,8 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  color: hsla(251, 76%, 60%, 0.8);
-  border-bottom: 3px solid hsla(251, 76%, 60%, 0.8);
+  color: hsla(250, 82%, 74%, 0.8);
+  border-bottom: 3px solid hsla(250, 82%, 74%, 0.8);
 }
 
 @media (max-width: 995px) {
@@ -97,12 +97,12 @@ nav a.active {
     top: 0;
     right: 0;
     width: 40%;
-    border-left: 3px solid hsla(251, 76%, 60%, 0.8);
-    border-bottom: 3px solid hsla(251, 76%, 60%, 0.8);
+    border-left: 3px solid hsla(250, 82%, 74%, 0.8);
+    border-bottom: 3px solid hsla(250, 82%, 74%, 0.8);
     border-bottom-left-radius: 2rem;
     padding: 1rem solid;
-    background-color: #161616;
-    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.1);
   }
 
   nav.active {
@@ -119,7 +119,7 @@ nav a.active {
   nav a.active {
     padding: 1rem;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid hsla(251, 76%, 60%, 0.8);
+    border-bottom: 0.5rem solid hsla(250, 82%, 74%, 0.8);
   }
 }
 
